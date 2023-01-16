@@ -1,0 +1,58 @@
+body{
+    background-color: lightblue;
+}
+.heading {
+    font-size: 38px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px, 5px, 5px lightslategray;
+}
+
+.note {
+    font-size: 15px;
+    color: black;
+}
+
+.copy_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: name1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name1 {
+    0% {
+        box-shadow: 2px 4px 28px #530c14;
+    }
+
+    20% {
+        box-shadow: 2px 4px 28px #63660a;
+    }
+
+    40% {
+        box-shadow: 2px 4px 28px #614d10;
+    }
+
+    60% {
+        box-shadow: 2px 4px 28px #0e5761;
+    }
+
+    80% {
+        box-shadow: 2px 4px 28px #092e5c;
+    }
+
+    100% {
+        box-shadow: 2px 4px 28px rgb(20, 20, 116);
+    }
+}
